@@ -9,8 +9,8 @@ namespace RedcapCSharpApiExamples
     public static class MyClass
     {
         // API token and URI for submitting a record
-        private static readonly string token = "776A9561F87903C0C660FCC3D3FBA1BE";
-        private static readonly Uri apiUri = new Uri("https://redcap.brdhd.org/redcap/api/");
+        private static readonly string token = "########";
+        private static readonly Uri apiUri = new Uri("#########");
 
         public static async Task<RestResponse> SubmitRecordAsync(string mappedAsset, string changes)
         {
